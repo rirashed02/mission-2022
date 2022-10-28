@@ -1,5 +1,10 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin:0;
+   
+}
+section{
+    margin-bottom:150px;
 }
 
 
@@ -19,7 +24,7 @@ body{
 .focused{
     width:50%;
     margin-top:12%;
-    padding:0 8%;
+    padding-left:8%;
 }
 .images-bar{
     width:50%;
@@ -57,4 +62,93 @@ body{
     border-radius:5px;
     
     
+}
+
+/* section-icon */
+.section-icon{
+    display:flex;
+   
+}
+.thard-width{
+    width:30%;
+    padding:25px;
+    border-radius:10px;
+    margin-right:25px;
+    
+}
+.thard-width img{
+    width:200px;
+}
+.gradient{
+    background:#e7dbdb;
+
+}
+.padding-side{
+    display:flex;
+    padding: 0 8%;
+}
+.background{
+    background:#dfafaf;
+}
+.color{
+    background:#ffefd3;
+}
+/* section thard */
+.images-boy{
+    width:40%;
+    padding-left:8%;
+   
+}
+.images-boy img{
+    width:70%;
+}
+.develop-without{
+    width:50%;
+}
+.develop-without h1{
+    font-size:60px;
+}
+.width-update{
+    width:660px;
+}
+.width-update h1{
+    width:500px;
+}
+.width-update p{
+    margin-bottom:45px;
+}
+.leftPadding{
+    padding-left:8%;
+}
+.flexiable{
+    display:flex;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat:no-repeat;
+    background-size:24%;
+}
+.flexiable-icon{
+    display:flex;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size:24%;
+}
+.footer-bar{
+    background:black;
+    margin:0;
+    padding:50px 0;
+}
+.mission{
+    text-align:center;
+}
+
+.mission h1{
+    color:white;
+    font-size:40px;
+}
+.mission span{
+    color:orange;
+}
+.mission p{
+    color:gray;
 }
